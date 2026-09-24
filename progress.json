@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:08:37.022Z",
+  "generated_at": "2026-09-24T17:51:28.759Z",
   "items": {
     "math:16": {
       "kind": "math",
@@ -11,6 +11,19 @@
       "path": "math/0016-eigendecomposition-and-svd",
       "first_solved_at": "2026-09-23T17:08:32.991Z",
       "last_pushed_at": "2026-09-23T17:08:32.991Z"
+    },
+    "lab:9ff596ea-672e-4101-9ce4-0856c55b62c9": {
+      "kind": "lab",
+      "id": "9ff596ea-672e-4101-9ce4-0856c55b62c9",
+      "title": "Fit Linear Regression with Autograd",
+      "difficulty": "medium",
+      "category": "PyTorch Fundamentals",
+      "url": "https://www.deep-ml.com/labs/9ff596ea-672e-4101-9ce4-0856c55b62c9",
+      "path": "labs/9ff596ea-672e-4101-9ce4-0856c55b62c9-fit-linear-regression-with-autograd",
+      "first_solved_at": "2026-09-24T17:51:23.870Z",
+      "last_pushed_at": "2026-09-24T17:51:23.870Z",
+      "language": "python",
+      "lines": 41
     }
   }
 }
