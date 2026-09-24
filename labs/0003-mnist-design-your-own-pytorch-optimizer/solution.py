@@ -30,7 +30,6 @@ class MyOptimizer(Optimizer):
                 # --- TODO: implement your own update rule ---
                 # Example: simple SGD update
                 # p.add_(grad, alpha=-lr)
-                p.add_(grad, alpha=-lr)
                 pass
 
         return loss

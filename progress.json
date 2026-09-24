@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:20:59.929Z",
+  "generated_at": "2026-09-24T19:27:05.215Z",
   "items": {
     "math:16": {
       "kind": "math",
@@ -60,9 +60,9 @@
       "url": "https://www.deep-ml.com/labs/3",
       "path": "labs/0003-mnist-design-your-own-pytorch-optimizer",
       "first_solved_at": "2026-09-24T19:20:59.310Z",
-      "last_pushed_at": "2026-09-24T19:20:59.310Z",
+      "last_pushed_at": "2026-09-24T19:27:04.678Z",
       "language": "python",
-      "lines": 37
+      "lines": 36
     }
   }
 }
