@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**6** solved · 0 problems · 5 labs · 1 math
+**7** solved · 0 problems · 6 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Fit Linear Regression with Autograd](https://www.deep-ml.com/labs/9ff596ea-672e-4101-9ce4-0856c55b62c9) | medium | 2026-09-24 | [solution](labs/9ff596ea-672e-4101-9ce4-0856c55b62c9-fit-linear-regression-with-autograd) |
 | [MLP with Dropout and BatchNorm](https://www.deep-ml.com/labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b) | medium | 2026-09-24 | [solution](labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b-mlp-with-dropout-and-batchnorm) |
 | [MNIST: Design Your Own Pytorch Optimizer](https://www.deep-ml.com/labs/3) | medium | 2026-09-24 | [solution](labs/0003-mnist-design-your-own-pytorch-optimizer) |
+| [MNIST: Design-Your-Own tiny Pytorch Model](https://www.deep-ml.com/labs/2) | medium | 2026-09-25 | [solution](labs/0002-mnist-design-your-own-tiny-pytorch-model) |
 | [MNIST: Pytorch DataLoader](https://www.deep-ml.com/labs/1) | medium | 2026-09-25 | [solution](labs/0001-mnist-pytorch-dataloader) |
 | [Train a Tiny CNN Image Classifier](https://www.deep-ml.com/labs/91c76ab2-7d3a-43a7-98ce-385aab6f1691) | hard | 2026-09-24 | [solution](labs/91c76ab2-7d3a-43a7-98ce-385aab6f1691-train-a-tiny-cnn-image-classifier) |
 
