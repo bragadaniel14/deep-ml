@@ -14,12 +14,14 @@ def build_model() -> nn.Module:
                 nn.Conv2d(1,2, kernel_size=3, padding=1), # N x 8 x 28 x 28
                 nn.ReLU(),
                 nn.MaxPool2d(2),  # N x 8 x 14 x 14
-                nn.Conv2d(2,4, kernel_size=3, padding=1), # N x 4 x 14 x 14
+                nn.Conv2d(2,3, kernel_size=3, padding=1), # N x 4 x 14 x 14
                 nn.ReLU(),
-                nn.MaxPool2d(2),  # N x 4 x 7 x 7
+                nn.MaxPool2d(2),  # N x 3 x 7 x 7
                 nn.Flatten(),  # N x 784
-                nn.Linear(196, 10) # N x 10
+                nn.Linear(147, 10) # N x 10
              )
+            
          def forward(self, x):
             return self.model(x)
+
     return TinyNet()
