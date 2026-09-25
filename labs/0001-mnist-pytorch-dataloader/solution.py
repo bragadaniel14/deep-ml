@@ -8,4 +8,9 @@ class MyTransform:
         Must be non-identity and deterministic.
         """
         # TODO: implement your custom transformation logic here
-        return torch.exp(x)
+        noise = torch.randn_like(x) * 0.05
+        x = x+noise
+        mean = torch.mean(x)
+        var = torch.std(x)+ 1e-5
+        x = (x-mean)/var
+        return x
