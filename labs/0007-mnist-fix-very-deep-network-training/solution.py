@@ -35,6 +35,9 @@ class DeepNetwork(nn.Module):
         self.layers = nn.ModuleList([
             nn.Linear(hidden_size, hidden_size) for _ in range(30)
         ])
+        self.norms = nn.ModuleList([
+            nn.BatchNorm1d(hidden_size) for _ in range(30)
+        ])
         
         # Output layer
         self.output_layer = nn.Linear(hidden_size, num_classes)
@@ -50,8 +53,8 @@ class DeepNetwork(nn.Module):
         x = self.activation(self.input_layer(x))
         
         # Pass through 30 layers (problematic without skip connections!)
-        for layer in self.layers:
-            x = self.activation(x+layer(x))
+        for layer,norm in zip(self.layers,self.norms):
+            x = self.activation(norm(x+layer(x)))
         
         # Output
         x = self.output_layer(x)
