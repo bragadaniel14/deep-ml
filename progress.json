@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:12:51.174Z",
+  "generated_at": "2026-09-27T02:29:03.280Z",
   "items": {
     "math:16": {
       "kind": "math",
@@ -115,6 +115,19 @@
       "last_pushed_at": "2026-09-27T01:12:50.595Z",
       "language": "python",
       "lines": 41
+    },
+    "lab:7": {
+      "kind": "lab",
+      "id": "7",
+      "title": "MNIST: Fix Very Deep Network Training",
+      "difficulty": "medium",
+      "category": "Network Optimization",
+      "url": "https://www.deep-ml.com/labs/7",
+      "path": "labs/0007-mnist-fix-very-deep-network-training",
+      "first_solved_at": "2026-09-27T02:29:02.842Z",
+      "last_pushed_at": "2026-09-27T02:29:02.842Z",
+      "language": "python",
+      "lines": 60
     }
   }
 }
